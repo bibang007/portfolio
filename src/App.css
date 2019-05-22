@@ -1,33 +1,102 @@
-.App {
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
+
+body {
+  margin: 0;
+  color: #7c202a;
+  background: rgba(red, green, blue, alpha);
+  background-image: linear-gradient(to right top, #f2f4f8, #d3e5e4, #cadcd2, #cbd1be);
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.container {
+  display: flexbox;
+  color: #7c202a;
+  grid-gap: 3px;
+  grid-template-rows: 100%;
+  grid-template-columns: 2;
+  
+}
+
+.name {
+  grid-row: 1;
+  grid-area: n;
+  text-align: center;
+  text-decoration: none;
+  font-size: 42px; 
+  color: #7c202a;
+
+}
+
+.nav {
+  margin: 0;
+  grid-row: 2;
+  text-align: center;
+  background: rgb(224, 177, 90);
+  grid-area: v;
+  width: 1 em;
+  grid-auto-flow: column;
+  
+}
+nav ul{
+   margin: 0;
+   padding: 25;
+   list-style: none;
+   margin-right: 0px;
+   margin-left: 20px;
+}
+
+nav li{
+   display: inline-block;
+   margin-right: 80px;
+   float: center;
+   
+}
+
+.font {
+  text-emphasis: none;
+  font-display: italic;
+  font: #7c202a;
+
+}
+
+strong {
+  font-display: bold;
+  font: #7c202a;
+
+}
+
+.experience {
+  grid-row: 3;
+  grid-area: e;
+  float: center;
+  font-size: 54;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.content {
+  grid-row: 4;
+  grid-area: c;
+  text-align: center;
+  align-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.footer {
+  grid-column: 5;
+  background:lightgray;
+  grid-area: f;
+  font-size: 10px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 450px){
+  div .container {
+      grid: none;
+      margin: 0;
+      width: 700px;
   }
-  to {
-    transform: rotate(360deg);
+
+ .body {
+      padding: 0;
+      width: 600px;
   }
+  
 }
