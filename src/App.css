@@ -1,29 +1,35 @@
-@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
 
-body {
+/* body {
   margin: 0;
   color: #7c202a;
   background: rgba(red, green, blue, alpha);
   background-image: linear-gradient(to right top, #f2f4f8, #d3e5e4, #cadcd2, #cbd1be);
   font-family: 'Nanum Gothic', sans-serif;
-}
+} */
 
 .container {
   display: flexbox;
-  color: #7c202a;
+  color: black;
   grid-gap: 3px;
   grid-template-rows: 100%;
   grid-template-columns: 2;
-  
+  font-family: 'Dancing Script', cursive;
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+.p {
+  font-family: 'Dancing Script', cursive;
 }
 
 .name {
+  font-family: 'Dancing Script', cursive;
   grid-row: 1;
   grid-area: n;
   text-align: center;
   text-decoration: none;
   font-size: 42px; 
-  color: #7c202a;
+  color:bisque;
 
 }
 
@@ -31,7 +37,7 @@ body {
   margin: 0;
   grid-row: 2;
   text-align: center;
-  background: rgb(224, 177, 90);
+  /* background: rgb(224, 177, 90); */
   grid-area: v;
   width: 1 em;
   grid-auto-flow: column;
@@ -59,11 +65,11 @@ nav li{
 
 }
 
-strong {
+/* strong {
   font-display: bold;
   font: #7c202a;
 
-}
+} */
 
 .experience {
   grid-row: 3;
@@ -80,12 +86,6 @@ strong {
   align-content: center;
 }
 
-.footer {
-  grid-column: 5;
-  background:lightgray;
-  grid-area: f;
-  font-size: 10px;
-}
 
 @media screen and (max-width: 450px){
   div .container {

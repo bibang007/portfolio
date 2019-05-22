@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
-import Footer from './Footer.js';
+// import Footer from './Footer.js';
 
 function App() {
   return (
@@ -16,6 +16,8 @@ function App() {
         <div className = "nav">
             <nav>
              <ul>
+
+             <li><a href="https://docdro.id/tkVZUhV">Résumé</a></li>
 
              <li><a href="https://www.linkedin.com/in/alane-ndong-37024a180/">LinkedIn</a></li>
 
@@ -36,12 +38,12 @@ function App() {
         </h2>
         </div>
        <div className = "content">
-        <div className = "1">
+        <div className = "pizza">
         
    
             <p>
-            <a href="http://nba-players-app.surge.sh/">
-            <img src="https://i.imgur.com/RWsCzZT.png" title="source: imgur.com" height={ 500 } width={ 700 } /></a>
+            <a href="http://judicious-bridge.surge.sh/">
+            <img src="https://i.imgur.com/nlCTe3m.jpg" title="source: imgur.com" height={ 500 } width={ 700 } /></a>
 
             <br />
             <br/>
@@ -51,25 +53,34 @@ function App() {
         <br/>
         </div>
        
-        <div className = "2">
+        <div className = "ensemble">
           
-            <a href="http://imhere.surge.sh/">
-            <img src="https://i.imgur.com/M1xWK0V.png" title="source: imgur.com" height={ 500 } width={ 700 } /></a>
+            <a href="http://ensemble-ga.surge.sh/">
+            <img src="https://i.imgur.com/8hpE0Y6.jpg" title="source: imgur.com" height={ 500 } width={ 700 } /></a>
             <br/>
             <br/>
             I'm Here is an application designed to link professionals, such as painters or movers, with those in need of professional services. This robust hardcoded database was created by use of Node.js and Express. CRUD and auth again obtained. Front end build in React.js, ES6, JavaScript, HTML and CSS. 
         </div>  
+
+        <div className = "jolly">
+          
+          <a href="http://jolly-marble.surge.sh/">
+          <img src="https://i.imgur.com/zM67jBh.jpg" title="source: imgur.com" height={ 500 } width={ 700 } /></a>
+          <br/>
+          <br/>
+          I'm Here is an application designed to link professionals, such as painters or movers, with those in need of professional services. This robust hardcoded database was created by use of Node.js and Express. CRUD and auth again obtained. Front end build in React.js, ES6, JavaScript, HTML and CSS. 
+      </div>  
        
-        <div className = "3">
+        <div className = "below">
         <p>
-        <a href="http://www.harrisonwalkers.com/">
-            <img src="https://i.imgur.com/aJbX7iE.png" title="source: imgur.com" height={ 500 } width={ 700 } /></a>
+        <a href="http://draconian-force.surge.sh">
+            <img src="https://i.imgur.com/9PKdvEZ.jpg" title="source: imgur.com" height={ 500 } width={ 700 } /></a>
                 <br/>
                 <br/>
                 Harrison Walkers is a lovely dog walking company, While working on their website I tapped in to a 3rd party api of dog photos,by way of axios, to give users a "treat" when ever they visit Harrison Walkers site.React.js framework used along with vanilla JavaScript. As an added bonus, I researched and utilized Bootstrap making this application highly responsive across screens of all sorts.
         </p>
         <br/>
-        <Footer />
+        {/* <Footer /> */}
         </div>
        </div>
     
