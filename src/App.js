@@ -48,7 +48,7 @@ function App() {
    
             <p>
             <a href="http://judicious-bridge.surge.sh/">
-            <img src="https://i.imgur.com/nlCTe3m.jpg" title="source: imgur.com" height={ 500 } width={ 700 } /></a>
+            <img className='pic' src="https://i.imgur.com/nlCTe3m.jpg" title="source: imgur.com" height={ 500 } width={ 700 } /></a>
 
             <br />
             <br/>
@@ -64,7 +64,7 @@ function App() {
         <div className = "ensemble">
           
             <a href="http://ensemble-ga.surge.sh/">
-            <img src="https://i.imgur.com/8hpE0Y6.jpg" title="source: imgur.com" height={ 500 } width={ 700 } /></a>
+            <img className='pic' src="https://i.imgur.com/8hpE0Y6.jpg" title="source: imgur.com" height={ 500 } width={ 700 } /></a>
             <br/>
             <br/>
 
@@ -79,7 +79,7 @@ function App() {
         <div className = "jolly">
           
           <a href="http://jolly-marble.surge.sh/">
-          <img src="https://i.imgur.com/zM67jBh.jpg" title="source: imgur.com" height={ 500 } width={ 700 } /></a>
+          <img className='pic' src="https://i.imgur.com/zM67jBh.jpg" title="source: imgur.com" height={ 500 } width={ 700 } /></a>
           <br/>
           <br/>
           <span className = 'rouge'>JOLLY</span> is an app that is very dear to me. It is one of my first app and I will keep working on it and eventually deploy it to the
@@ -93,7 +93,7 @@ function App() {
         <div className = "below">
         <p>
         <a href="http://draconian-force.surge.sh">
-            <img src="https://i.imgur.com/9PKdvEZ.jpg" title="source: imgur.com" height={ 500 } width={ 700 } /></a>
+            <img className='pic' src="https://i.imgur.com/9PKdvEZ.jpg" title="source: imgur.com" height={ 500 } width={ 700 } /></a>
                 <br/>
                 <br/>
                 <span className = 'rouge'>BELOW</span> is an e-commerce website where buyers can sell items at a very low price and sellers can sell their products very fast as long as they re willing
